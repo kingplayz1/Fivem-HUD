@@ -75,3 +75,16 @@ if Config.Framework == nil then
     end
     Framework.getCore = function() return {} end
 end
+
+-- Trigger player loaded event for standalone mode
+CreateThread(function()
+    Wait(1000)  -- Wait a bit for resources to initialize
+    TriggerEvent('bablo-hud:playerLoaded')
+end)
+
+-- Handle player unload (though in standalone mode, this might not be perfectly accurate)
+AddEventHandler('onClientResourceStop', function(resourceName)
+    if resourceName == GetCurrentResourceName() then
+        TriggerEvent('bablo-hud:playerUnloaded')
+    end
+end)
