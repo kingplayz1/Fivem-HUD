@@ -1,0 +1,519 @@
+{
+    "_meta": {
+        "name": "Svenska (Sverige)",
+        "code": "sv-SE",
+        "authors": [
+            "bablo-hud"
+        ]
+    },
+    "editModeOverlay": {
+        "title": "Redigeringsläge",
+        "subtitle": "Dra element för att flytta dem",
+        "reset": "Återställ",
+        "done": "Klar",
+        "hint": "Dra vilket element som helst för att flytta. Högerklicka på ett element för alternativ (Dölj, Lutning, Layout)."
+    },
+    "contextMenu": {
+        "hide": "Dölj Element",
+        "show": "Visa Element",
+        "resetPosition": "Återställ Position",
+        "rotate": "Roptera",
+        "tiltH": "3D Horisontell",
+        "tiltV": "3D Vertikal"
+    },
+    "settings": {
+        "header": {
+            "title": "HUD-inställningar",
+            "titleGlobal": "GLOBAL KONFIGURATION",
+            "subtitle": "Anpassa ditt gränssnitt",
+            "subtitleGlobal": "Ändringar gäller alla på servern",
+            "buttons": {
+                "collisionDebug": "Kollisionsfelsökning",
+                "editMode": "Redigeringsläge",
+                "reset": "Återställ",
+                "publishGlobal": "Publicera Globalt"
+            }
+        },
+        "tabs": {
+            "general": "Allmänt",
+            "statusIcons": "Statusikoner",
+            "speedometers": "Hastighetsmätare",
+            "notifications": "Notiser",
+            "progressBar": "Förloppsindikator",
+            "controlHints": "Hjälptext",
+            "playerInfo": "Spelarinfo",
+            "compass": "Kompass"
+        },
+        "general": {
+            "subtitle": "Anpassa kartstil och kontrolltips",
+            "sectionTitle": "Minikarta",
+            "showMapOnFoot": {
+                "title": "Visa karta till fots",
+                "description": "Visa minikartan när du går till fots"
+            },
+            "minimapTransition": {
+                "title": "Minikartsövergång",
+                "description": "Spela en kort animerad övergång över minikartan när den visas eller döljs"
+            },
+            "mapStyle": {
+                "title": "Kartstil",
+                "description": "Välj utseende för minikartan",
+                "square": "Fyrkant",
+                "circle": "Cirkel"
+            },
+            "microphone": {
+                "sectionTitle": "Mikrofon",
+                "location": {
+                    "title": "Voice HUD Placering",
+                    "description": "Välj om Voice HUD ska visas separat eller till vänster på Statusfältet.",
+                    "standalone": "Fristående HUD",
+                    "status": "Statusfält (Vänster)"
+                },
+                "color": {
+                    "title": "Mikrofonfärg",
+                    "description": "Anpassa temafärgen för mikrofonen och röstindikatorn."
+                }
+            }
+        },
+        "statusIcons": {
+            "lockBanner": "Inställningar för statusikoner är låsta av servern.",
+            "title": "Statusikoner",
+            "subtitle": "Välj en ikon för att anpassa",
+            "simulate": "Simulera",
+            "settingsHeader": "Inställningar för {name}",
+            "settingsHint": "Konfigurera beteendet för denna status",
+            "accentColor": {
+                "title": "Accentfärg",
+                "description": "Klicka för att välja en färg"
+            },
+            "visibility": {
+                "title": "Synlighet",
+                "description": "Slå på/av statusvisning"
+            },
+            "autoHide": {
+                "title": "Auto-dölj",
+                "description": "Dölj när värdet är under tröskeln"
+            },
+            "colorPicker": {
+                "hexLabel": "HEX",
+                "applyAll": "Alla"
+            },
+            "designs": {
+                "aura": "Aura",
+                "wave": "Våg",
+                "wave-static": "Våg Flat",
+                "v15": "Radar",
+                "v13": "Pro",
+                "v12": "Flow",
+                "v11": "Eklips",
+                "v10": "Bricka",
+                "v9": "Kapsel",
+                "v8": "Premium",
+                "v6": "Staplar",
+                "v1": "Klassisk",
+                "v2": "Minimal",
+                "v3": "Kompakt",
+                "v4": "Staplad",
+                "v5": "Hexagon",
+                "hex-fill": "Fylld hex",
+                "hex-border": "Konturhex",
+                "hex-bar": "Klassisk hex"
+            }
+        },
+        "speedometers": {
+            "lockBanner": "Inställningar för hastighetsmätare är låsta av servern.",
+            "highlightColor": {
+                "title": "Accentfärg",
+                "description": "Inre gradientens accentfärg"
+            },
+            "showHighlight": {
+                "title": "Visa accent",
+                "description": "Slå på/av den inre gradientens glöd"
+            },
+            "designs": {
+                "basic": "Basic",
+                "round-basic": "Rund",
+                "digital-bar": "Digital Bar",
+                "round-frosted": "Frostad",
+                "flat-bar": "Platt",
+                "sport-basic": "Sport Basic",
+                "sport": "Sport"
+            }
+        },
+        "notifications": {
+            "lockBanner": "Notisinställningar är låsta av servern.",
+            "style": {
+                "title": "Notisstil",
+                "subtitle": "Välj hur förloppet visas på notiser.",
+                "linear": "Linjär",
+                "circular": "Cirkulär",
+                "overlay": "Överlägg"
+            },
+            "theme": {
+                "title": "Färgtema",
+                "subtitle": "Välj mellan en enhetlig primärfärg eller distinkta statusfärger.",
+                "primary": "Original (Enhetlig)",
+                "colored": "Typbaserad (Färgad)"
+            },
+            "opacity": {
+                "title": "Genomskinlighet",
+                "subtitle": "Justera notisernas genomskinlighet.",
+                "label": "Notisgenomskinlighet"
+            },
+            "sound": {
+                "title": "Ljud och test",
+                "subtitle": "Hantera ljudåterkoppling och testa din konfiguration.",
+                "toggleTitle": "Notisljud",
+                "toggleHint": "Spela ett ljud när du tar emot notiser",
+                "volumeLabel": "Volym",
+                "testHeader": "Testförhandsgranskning",
+                "testSuccess": "Testa lyckad",
+                "testError": "Testa fel",
+                "testInfo": "Testa info",
+                "testWarning": "Testa varning"
+            },
+            "test": {
+                "successTitle": "Åtgärden lyckades",
+                "successBody": "Dina ändringar har sparats.",
+                "errorTitle": "Systemfel",
+                "errorBody": "Det gick inte att ansluta till servern. Försök igen.",
+                "infoTitle": "Nytt meddelande",
+                "infoBody": "Du har fått en ny bilnyckel.",
+                "warningTitle": "Anslutningen är instabil",
+                "warningBody": "Latensen är högre än vanligt."
+            }
+        },
+        "progressBar": {
+            "lockBanner": "Inställningar för förloppsindikator är låsta av servern.",
+            "title": "Förloppsindikator",
+            "subtitle": "Segmenterad förloppsvisning och anpassning",
+            "restartPreview": "Starta om förhandsgranskning",
+            "accentColor": {
+                "title": "Gradient & Accentfärg",
+                "description": "Övre linjär toningsfärg och glöd på aktiva segment."
+            },
+            "bgColor": {
+                "title": "Behållarbakgrund",
+                "description": "Mörk bakgrundston för förloppsindikatorns behållare."
+            },
+            "reset": {
+                "title": "Återställ standard",
+                "description": "Återställ serverns standardtoning och bakgrundsfärger.",
+                "button": "Återställ standard"
+            },
+            "test": {
+                "title": "Testa förloppsindikator",
+                "subtitle": "Kör ett 5-sekunders test i realtid på din HUD.",
+                "button": "Kör test (5s)"
+            }
+        },
+        "controlHints": {
+            "designStyle": "Designstil",
+            "designV1": "Design V1",
+            "designV2": "Design V2",
+            "background": {
+                "title": "Bakgrund",
+                "description": "Visa en mörk bakgrund bakom hjälptexterna"
+            },
+            "position": {
+                "title": "Position",
+                "description": "Välj placering på skärmen för snabbknappar",
+                "centerLeft": "Center vänster",
+                "centerRight": "Center höger"
+            },
+            "preview": {
+                "title": "Markeringsfärg och förhandsgranskning",
+                "description": "Anpassa markering för snabbknappar och förhandsgranskning"
+            },
+            "previewActive": {
+                "title": "Förhandsgranskning aktiv",
+                "description": "Förhandsgranskningar visas på skärmen just nu. Ändra inställningar för att se uppdateringar i realtid."
+            },
+            "samples": {
+                "openPhone": "Öppna telefon",
+                "inventory": "Inventarie",
+                "interact": "Interagera"
+            }
+        },
+        "playerInfo": {
+            "lockBanner": "Inställningar för spelarinfo är låsta av servern.",
+            "masterToggle": {
+                "title": "Aktivera spelarinfo",
+                "description": "Visa eller dölj spelarinformationspanelen."
+            },
+            "visibleElements": {
+                "title": "Synliga element",
+                "subtitle": "Välj vilka fält som visas i panelen. Klicka på ett kort för att slå på eller av."
+            },
+            "opacity": {
+                "title": "Genomskinlighet",
+                "subtitle": "Justera panelens genomskinlighet.",
+                "label": "Panelens genomskinlighet"
+            },
+            "elements": {
+                "job": "Yrke",
+                "id": "Spelar-ID",
+                "time": "Speltid",
+                "bank": "Bank",
+                "cash": "Kontanter",
+                "weapon": "Vapen",
+                "dirty": "Svarta pengar",
+                "gang": "Gäng"
+            },
+            "descriptions": {
+                "job": "Nuvarande yrke och grad",
+                "id": "Spelar-ID på servern",
+                "time": "Spelvärldens tid",
+                "bank": "Banksaldo",
+                "cash": "Kontanter i handen",
+                "weapon": "Utrustat vapen och ammunition",
+                "dirty": "Svarta pengar på fickan (visas bara när du har några)",
+                "gang": "Gäng och rang (visas bara när du är med i ett gäng)"
+            },
+            "samples": {
+                "job": "Mekaniker",
+                "id": "#1337",
+                "time": "14:32",
+                "bank": "25 000 kr",
+                "cash": "1 250 kr",
+                "weapon": "Pistol",
+                "dirty": "$4,500",
+                "gang": "Ballas - Boss"
+            }
+        },
+        "compass": {
+            "lockBanner": "Kompassens inställningar är låsta av servern.",
+            "title": "Kompass",
+            "subtitle": "Kompass och gatuadress högst upp i mitten",
+            "masterToggle": {
+                "title": "Aktivera kompass",
+                "description": "Visa riktning, gatunamn och område högst upp."
+            },
+            "showOnFoot": {
+                "title": "Visa till fots",
+                "description": "Visa kompassen när du går till fots (när minimap är synlig)."
+            },
+            "bgColor": {
+                "title": "Bakgrundsfärg",
+                "description": "Färgton på kompassens bakgrund och gatubadge."
+            },
+            "accentColor": {
+                "title": "Mittindikatorns färg",
+                "description": "Färg på den vertikala linjen och diamanten i mitten."
+            },
+            "visibleElements": {
+                "title": "Synliga piller",
+                "subtitle": "Växla enskilda piller på eller av"
+            },
+            "elements": {
+                "direction": "Riktning",
+                "street": "Gata",
+                "zone": "Område"
+            },
+            "samples": {
+                "direction": "NE",
+                "street": "Elgin Ave",
+                "zone": "Legion Square"
+            },
+            "preview": {
+                "label": "Förhandsvisning",
+                "empty": "Alla piller dolda"
+            },
+            "opacity": {
+                "title": "Opacitet",
+                "subtitle": "Justera kompassens genomskinlighet",
+                "label": "Kompassens opacitet"
+            }
+        }
+    },
+    "hud": {
+        "playerInfo": {
+            "ammo": {
+                "empty": "TOM",
+                "remaining": "RES"
+            },
+            "money": {
+                "inBank": "På bank",
+                "inCash": "Kontant"
+            }
+        },
+        "status": {}
+    },
+    "notifications": {
+        "defaultTitle": "Notis",
+        "settingsLocked": "HUD-anpassning hanteras av servern. Inställningarna kan inte redigeras här.",
+        "seatbelt": {
+            "enabledTitle": "Bilbälte påsatt",
+            "enabledBody": "Du har spänt fast bilbältet",
+            "disabledTitle": "Bilbälte avtaget",
+            "disabledBody": "Du har lossat bilbältet"
+        },
+        "engine": {
+            "enabledTitle": "Motor på",
+            "enabledBody": "Du har startat motorn",
+            "disabledTitle": "Motor av",
+            "disabledBody": "Du har stängt av motorn"
+        },
+        "test": {
+            "title": "Testnotis",
+            "body": "Det här är en testnotis för att se hur den ser ut."
+        },
+        "hungerAlert": {
+            "low": {
+                "hunger": {
+                    "title": "Hungrig",
+                    "body": "Du känner hur det kurrar i magen..."
+                },
+                "thirst": {
+                    "title": "Törstig",
+                    "body": "Du känner hur halsen börjar bli torr..."
+                }
+            },
+            "medium": {
+                "hunger": {
+                    "title": "Hungrig",
+                    "body": "Du börjar bli riktigt hungrig..."
+                },
+                "thirst": {
+                    "title": "Törstig",
+                    "body": "Din hals blir torrare och torrare..."
+                }
+            },
+            "critical": {
+                "hunger": {
+                    "title": "Hungrig",
+                    "body": "Du börjar känna smärta från magen..."
+                },
+                "thirst": {
+                    "title": "Törstig",
+                    "body": "Din mun är torr och halsen värker..."
+                }
+            }
+        }
+    },
+    "keymapping": {
+        "toggleEngine": "Slå på/av motor",
+        "toggleSeatbelt": "Slå på/av bilbälte"
+    },
+    "framework": {
+        "fallbacks": {
+            "playerName": "Spelare",
+            "jobLabel": "Arbetslös",
+            "jobGrade": "Arbetare",
+            "weaponName": "Vapen",
+            "unarmed": "Obeväpnad"
+        }
+    },
+    "weapons": {
+        "0x92A27487": "Antik kavallerikniv",
+        "0x958A4A8F": "Basebollträ",
+        "0xF9E6AA4B": "Trasig flaska",
+        "0x84BD7BFD": "Kofot",
+        "0xA2719263": "Obeväpnad",
+        "0x8BB05FD7": "Ficklampa",
+        "0x440E4788": "Golfklubba",
+        "0x4E875F73": "Hammare",
+        "0xF9DCBF2D": "Yxa",
+        "0xD8DF3C3C": "Knogjärn",
+        "0x99B507EA": "Kniv",
+        "0xDD5DF8D9": "Machete",
+        "0xDFE37640": "Stilett",
+        "0x678B81B1": "Batong",
+        "0x19044EE0": "Rörtång",
+        "0xCD274149": "Stridsyxa",
+        "0x94117305": "Biljardkö",
+        "0x3813FC08": "Stenyxa",
+        "0x6589186A": "Polkagris",
+        "0xDAC00025": "Elstav",
+        "0x1B06D571": "Pistol",
+        "0xBFE256D4": "Pistol Mk II",
+        "0x5EF9FEC4": "Stridspistol",
+        "0x22D8FE39": "AP-pistol",
+        "0x3656C8C1": "Elpistol",
+        "0x99AEEB3B": "Pistol .50",
+        "0xBFD21232": "SNS-pistol",
+        "0x88374054": "SNS-pistol Mk II",
+        "0xD205520E": "Tung pistol",
+        "0x083839C4": "Vintage-pistol",
+        "0x47757124": "Lysraketpistol",
+        "0xDC4DB296": "Skytte-pistol",
+        "0xC1B3C3D1": "Tung revolver",
+        "0xCB96392F": "Tung revolver Mk II",
+        "0x97EA20B8": "Double Action-revolver",
+        "0xAF3696A1": "Up-n-Atomizer",
+        "0x2B5EF5EC": "Keramisk pistol",
+        "0x917F6C8C": "Marin revolver",
+        "0x57A4368C": "Perico-pistol",
+        "0x45CD9CF3": "Elpistol",
+        "0x1BC4FDB9": "WM 29-pistol",
+        "0x13532244": "Mikro-kpist",
+        "0x2BE6766B": "Kpist",
+        "0x78A97CD0": "Kpist Mk II",
+        "0xEFE7E2DF": "Stridskpist",
+        "0x0A3D4D34": "Strids-PDW",
+        "0xDB1AA450": "Maskinpistol",
+        "0xBD248B55": "Mini-kpist",
+        "0x476BF155": "Unholy Hellbringer",
+        "0x14E5AFD5": "Taktisk kpist",
+        "0x1D073A89": "Pumphagel",
+        "0x555AF99A": "Pumphagel Mk II",
+        "0x7846A318": "Avsågat hagelgevär",
+        "0xE284C527": "Stridhagel",
+        "0x9D61E50F": "Bullpup-hagel",
+        "0x3AABBBAA": "Tungt hagelgevär",
+        "0xEF951FBB": "Dubbelpipigt hagelgevär",
+        "0x12E82D3D": "Sweeper-hagel",
+        "0x05A96BA4": "Stridshagel",
+        "0xBFEFFF6D": "Automatkarbin",
+        "0x394F415C": "Automatkarbin Mk II",
+        "0x83BF0278": "Karbin",
+        "0xFAD1F1C9": "Karbin Mk II",
+        "0xAF113F99": "Avancerat gevär",
+        "0xC0A3098D": "Specialkarbin",
+        "0x969C3D67": "Specialkarbin Mk II",
+        "0x7F229F94": "Bullpup-gevär",
+        "0x84D6FAFD": "Bullpup-gevär Mk II",
+        "0x624FE830": "Kompaktgevär",
+        "0x9D1F17E6": "Militärgevär",
+        "0xC78D71B4": "Tungt gevär",
+        "0xD1D5F52B": "Taktiskt gevär",
+        "0x9D07F764": "Kulspruta",
+        "0x7FD62962": "Stridskulspruta",
+        "0xDBBD7280": "Stridskulspruta Mk II",
+        "0x61012683": "Gusenberg Sweeper",
+        "0x05FC3C11": "Krypskyttegevär",
+        "0x0C472FE2": "Tungt krypskyttegevär",
+        "0x0A914799": "Tungt krypskyttegevär Mk II",
+        "0xC734385A": "Skyttegevär",
+        "0x6A6C02E0": "Skyttegevär Mk II",
+        "0x6E7DDDEC": "Precisionsgevär",
+        "0xA89CB99E": "Musköt",
+        "0xB1CA77B1": "Pansarvärnsraket",
+        "0xA284510B": "Granattillkastare",
+        "0x4DD2DC56": "Rökgranattillkastare",
+        "0x42BF8A85": "Minigun",
+        "0x7F7497E5": "Fyrverkeritillkastare",
+        "0x6D544C99": "Railgun",
+        "0x63AB0442": "Målsökande raket",
+        "0x0781FE4A": "Kompakt granattillkastare",
+        "0xB62D1F67": "Widowmaker",
+        "0xDB26713A": "Kompakt EMP-tillkastare",
+        "0xFEA23564": "Railgun",
+        "0x93E220BD": "Granat",
+        "0xA0973D5E": "BZ-gas",
+        "0x24B17070": "Molotov",
+        "0x2C3731D9": "Klisterbomb",
+        "0xAB564B93": "Närhetsmina",
+        "0x0787F0BB": "Snöboll",
+        "0xBA45E8B8": "Rörbomb",
+        "0x23C9F95C": "Baseboll",
+        "0xFDBC8A50": "Tårgas",
+        "0x497FACC3": "Lysraket",
+        "0xF7F1E25E": "Syrapaket",
+        "0x34A67B97": "Bensindunk",
+        "0xFBAB5776": "Fallskärm",
+        "0x060EC506": "Brandsläckare",
+        "0xBA536372": "Farlig bensindunk",
+        "0x184140A1": "Konstgödseldunk"
+    }
+}

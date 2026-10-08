@@ -1,0 +1,515 @@
+{
+    "_meta": {
+        "name": "Suomi (FIN)",
+        "code": "fi-FIN",
+        "authors": [
+            "bablo-hud"
+        ]
+    },
+    "editModeOverlay": {
+        "title": "Muokkaustila",
+        "subtitle": "Siirrä elementtejä vetämällä",
+        "reset": "Nollaa",
+        "done": "Valmis",
+        "hint": "Siirrä mitä tahansa elementtiä vetämällä. Napsauta elementtiä hiiren kakkospainikkeella nähdäksesi vaihtoehdot (Piilota, Kallistus, Asettelu)."
+    },
+    "contextMenu": {
+        "hide": "Piilota Elementti",
+        "show": "Näytä Elementti",
+        "resetPosition": "Nollaa Sijainti",
+        "rotate": "Kierrä",
+        "tiltH": "3D Vaakasuora",
+        "tiltV": "3D Pystysuora"
+    },
+    "settings": {
+        "header": {
+            "title": "HUD Asetukset",
+            "subtitle": "Muokka ulkonäköä",
+            "buttons": {
+                "collisionDebug": "Collision Debugi",
+                "editMode": "Muokkaustila",
+                "reset": "Palauta oletusasetukset"
+            }
+        },
+        "tabs": {
+            "general": "Yleiset",
+            "statusIcons": "Status Icons",
+            "speedometers": "Nopeusmittarit",
+            "notifications": "Ilmoitukset",
+            "progressBar": "Progressbaari",
+            "controlHints": "Vihjeet",
+            "playerInfo": "Pelaajatiedot",
+            "compass": "Kompassi"
+        },
+        "general": {
+            "subtitle": "Mukauta minimap-tyyliä ja ohjeita",
+            "sectionTitle": "Minikartta",
+            "showMapOnFoot": {
+                "title": "Näytä kartta jalan",
+                "description": "Näytä minikartta, kun et ole autossa"
+            },
+            "minimapTransition": {
+                "title": "Minikartan siirtymä",
+                "description": "Näytä lyhyt animoitu peite minikartan päällä, kun se ilmestyy tai piiloutuu"
+            },
+            "mapStyle": {
+                "title": "Karttatyyli",
+                "description": "Valitse minimap-tyylisi",
+                "square": "Neliö",
+                "circle": "Ympyrä"
+            },
+            "microphone": {
+                "sectionTitle": "Mikrofoni",
+                "location": {
+                    "title": "Voice HUD Sijainti",
+                    "description": "Valitse näkyykö Voice HUD erillisenä vai Status-palkin vasemmalla puolella.",
+                    "standalone": "Erillinen HUD",
+                    "status": "Status Palkki (Vasen)"
+                },
+                "color": {
+                    "title": "Mikrofonin Väri",
+                    "description": "Mukauta mikrofonin ja äänipalkin teemaväriä."
+                }
+            }
+        },
+        "statusIcons": {
+            "lockBanner": "Tilakuvakeen muokkaus on lukittu.",
+            "title": "Tilakuvakkeet",
+            "subtitle": "Valitse kuvake muokattavaksi",
+            "simulate": "Simuloi",
+            "settingsHeader": "{name} Asetilset",
+            "settingsHint": "Määritä tämän tilan toiminta",
+            "accentColor": {
+                "title": "Korostusväri",
+                "description": "Klikkaa valitaksesi väri"
+            },
+            "visibility": {
+                "title": "Näkyvyys",
+                "description": "Näytä/piilota tila"
+            },
+            "autoHide": {
+                "title": "Auto Hide",
+                "description": "Hide when value is below threshold"
+            },
+            "colorPicker": {
+                "hexLabel": "HEX",
+                "applyAll": "Kaikki"
+            },
+            "designs": {
+                "aura": "Aura",
+                "wave": "Wave",
+                "wave-static": "Wave Flat",
+                "v15": "Radar",
+                "v13": "Pro",
+                "v12": "Flow",
+                "v11": "Eclipse",
+                "v10": "Badge",
+                "v9": "Capsule",
+                "v8": "Premium",
+                "v6": "Bars",
+                "v1": "Classic",
+                "v2": "Minimal",
+                "v3": "Compact",
+                "v4": "Stacked",
+                "v5": "Hexagon",
+                "hex-fill": "Solid Hex",
+                "hex-border": "Outline Hex",
+                "hex-bar": "Legacy Hex"
+            }
+        },
+        "speedometers": {
+            "lockBanner": "Nopeusmittarin asetuksia ei voi muokata.",
+            "highlightColor": {
+                "title": "Korostusväri",
+                "description": "Sisäinen gradientin korostusväri"
+            },
+            "showHighlight": {
+                "title": "Näytä korostus",
+                "description": "Kytke sisäinen hehku päälle/pois"
+            },
+            "designs": {
+                "basic": "Normaali",
+                "round-basic": "Pyöreä",
+                "digital-bar": "Digitaalinen Palkki",
+                "round-frosted": "Huurrettu",
+                "flat-bar": "Tasainen",
+                "sport-basic": "Urheilu Normaali",
+                "sport": "Urheilu"
+            }
+        },
+        "notifications": {
+            "lockBanner": "Ilmoitusasetukset on lukittu palvelimen toimesta.",
+            "style": {
+                "title": "Ilmoitustyyli",
+                "subtitle": "Valitse miten edistyminen näytetään ilmoituksissa.",
+                "linear": "Lineaarinen",
+                "circular": "Pyöreä",
+                "overlay": "Päällekkäinen"
+            },
+            "theme": {
+                "title": "Väriteema",
+                "subtitle": "Valitse yhtenäinen väri tai tilakohtaiset värit.",
+                "primary": "Alkuperäinen (yhtenäinen)",
+                "colored": "Tyyppikohtainen (värillinen)"
+            },
+            "opacity": {
+                "title": "Läpinäkyvyys",
+                "subtitle": "Säädä ilmoitusten läpinäkyvyyttä.",
+                "label": "Ilmoituksen läpinäkyvyys"
+            },
+            "sound": {
+                "title": "Ääni & testaus",
+                "subtitle": "Hallitse ääniä ja testaa asetuksia.",
+                "toggleTitle": "Ilmoitusääni",
+                "toggleHint": "Toista ääni, kun saat ilmoituksen",
+                "volumeLabel": "Äänenvoimakkuus",
+                "testHeader": "Testiesikatselu",
+                "testSuccess": "Onnistuminen",
+                "testError": "Virhe",
+                "testInfo": "Info",
+                "testWarning": "Varoitus"
+            },
+            "test": {
+                "successTitle": "Toiminto onnistui",
+                "successBody": "Muutokset tallennettiin onnistuneesti.",
+                "errorTitle": "Järjestelmävirhe",
+                "errorBody": "Yhteys palvelimeen epäonnistui. Yritä uudelleen.",
+                "infoTitle": "Uusi viesti",
+                "infoBody": "Sait uuden ajoneuvon avaimen.",
+                "warningTitle": "Yhteys epävakaa",
+                "warningBody": "Verkkoviive on normaalia suurempi."
+            }
+        },
+        "progressBar": {
+            "lockBanner": "Progress barin asetusten muokkaus on lukittu.",
+            "title": "Progressbaari",
+            "subtitle": "Segmentoitu edistymispalkin näyttö ja mukautus",
+            "restartPreview": "Käynnistä esikatseluanimaatio uudelleen",
+            "accentColor": {
+                "title": "Gradientti & Aksenttiväri",
+                "description": "Yläosan liukuvärin sävy ja aktiivisten segmenttien hehkuväri."
+            },
+            "bgColor": {
+                "title": "Säiliön tausta",
+                "description": "Edistymispalkin säiliön tumma taustaväri."
+            },
+            "reset": {
+                "title": "Palauta oletukset",
+                "description": "Palauta palvelimen teeman liukuvärin ja taustan oletusvärit.",
+                "button": "Palauta oletukset"
+            },
+            "test": {
+                "title": "Testaa edistymispalkkia",
+                "subtitle": "Käynnistä 5 sekunnin testi HUD-näytöllä.",
+                "button": "Suorita testi (5s)"
+            }
+        },
+        "controlHints": {
+            "designStyle": "Ulkoasutyyli",
+            "designV1": "Ulkoasu V1",
+            "designV2": "Ulkoasu V2",
+            "background": {
+                "title": "Tausta",
+                "description": "Näytä tumma tausta vihjeiden takana"
+            },
+            "position": {
+                "title": "Sijainti",
+                "description": "Valitse näppäinvihjeiden sijainti ruudulla",
+                "centerLeft": "Keskellä vasemalla",
+                "centerRight": "Keskellä oikealla"
+            },
+            "preview": {
+                "title": "Korostusväri ja esikatselu",
+                "description": "Muokkaa näppäinvihjeen korostusväriä ja esikatselua"
+            },
+            "previewActive": {
+                "title": "Esikastelu on aktiivinen",
+                "description": "Vihjeiden esikatselut ovat aktiivisia näytölläsi juuri nyt. Muuta asetuksia nähdäksesi päivitykset reaaliajassa."
+            },
+            "samples": {
+                "openPhone": "Avaa Puhelin",
+                "inventory": "Inventory",
+                "interact": "Vuorovaikuta"
+            }
+        },
+        "playerInfo": {
+            "lockBanner": "Pelaajatietojen asetukset on lukittu palvelimen toimesta.",
+            "masterToggle": {
+                "title": "Ota Pelaajatiedot käyttöön",
+                "description": "Näytä tai piilota Hud."
+            },
+            "visibleElements": {
+                "title": "Näkyvät tiedot",
+                "subtitle": "Valitse mitkä tiedot näkyvät Hudissa. Klikkaa kytkeäksesi päälle tai pois."
+            },
+            "opacity": {
+                "title": "Läpinäkyvyys",
+                "subtitle": "Säädä Hudin läpinäkyvyyttä.",
+                "label": "Hudin Läpinäkyvyys"
+            },
+            "elements": {
+                "job": "Työ",
+                "id": "Pelaajan ID",
+                "time": "Kellon aika",
+                "bank": "Pankki",
+                "cash": "Käteinen",
+                "weapon": "Ase",
+                "dirty": "Likainen raha",
+                "gang": "Jengi"
+            },
+            "descriptions": {
+                "job": "Nykyinen työ ja arvo",
+                "id": "Pelaajan ID",
+                "time": "Kellon aika",
+                "bank": "Pankkitilin saldo",
+                "cash": "Käteinen",
+                "weapon": "Varustettu ase ja ammukset",
+                "dirty": "Likainen raha mukana (näytetään vain kun sitä on)",
+                "gang": "Jengi ja arvo (näytetään vain kun kuulut jengiin)"
+            },
+            "samples": {
+                "job": "Mekaanikko",
+                "id": "#1337",
+                "time": "14:32",
+                "bank": "$25,000",
+                "cash": "$1,250",
+                "weapon": "Pistooli",
+                "dirty": "$4,500",
+                "gang": "Ballas - Boss"
+            }
+        },
+        "compass": {
+            "lockBanner": "Palvelin on lukinnut kompassin asetukset.",
+            "title": "Kompassi",
+            "subtitle": "Keskimmäinen kompassi & katuosoitenäyttö",
+            "masterToggle": {
+                "title": "Ota kompassi käyttöön",
+                "description": "Näytä suunta-, katu- ja aluepillerit ruudun yläosassa."
+            },
+            "showOnFoot": {
+                "title": "Näytä jalkaisin",
+                "description": "Näytä kompassi kun kävelet jalkaisin (kun minimap on näkyvissä)."
+            },
+            "bgColor": {
+                "title": "Taustaväri",
+                "description": "Yläpalkin ja katuosoitteen taustan sävy."
+            },
+            "accentColor": {
+                "title": "Keskiosoittimen väri",
+                "description": "Pystyviivan ja keskimmäisen timanttimerkin väri."
+            },
+            "visibleElements": {
+                "title": "Näkyvät merkit",
+                "subtitle": "Vaihda yksittäiset merkit päälle tai pois"
+            },
+            "elements": {
+                "direction": "Suunta",
+                "street": "Katu",
+                "zone": "Alue"
+            },
+            "samples": {
+                "direction": "NE",
+                "street": "Elgin Ave",
+                "zone": "Legion Square"
+            },
+            "preview": {
+                "label": "Esikatselu",
+                "empty": "Kaikki merkit piilotettu"
+            },
+            "opacity": {
+                "title": "Läpinäkyvyys",
+                "subtitle": "Säädä kompassin läpinäkyvyyttä",
+                "label": "Kompassin läpinäkyvyys"
+            }
+        }
+    },
+    "hud": {
+        "playerInfo": {
+            "ammo": {
+                "empty": "TYHJÄ",
+                "remaining": "JÄL"
+            },
+            "money": {
+                "inBank": "Pankissa",
+                "inCash": "Käteinen"
+            }
+        },
+        "status": {}
+    },
+    "notifications": {
+        "defaultTitle": "Ilmoitus",
+        "seatbelt": {
+            "enabledTitle": "Turvavyö kiinnitetty",
+            "enabledBody": "Olet kiinnittänyt turvavyösi",
+            "disabledTitle": "Turvavyö irroitettu",
+            "disabledBody": "Olet irroittanut turvavyön"
+        },
+        "engine": {
+            "enabledTitle": "Moottori käynnissä",
+            "enabledBody": "Olet käynnistänyt moottorin",
+            "disabledTitle": "Moottori sammutettu",
+            "disabledBody": "Olet sammuttanut moottorin"
+        },
+        "test": {
+            "title": "Testi ilmoitus",
+            "body": "Tämä on testi ilmoitus tämän avulla näet miltä se näyttää."
+        },
+        "hungerAlert": {
+            "low": {
+                "hunger": {
+                    "title": "Nälkäinen",
+                    "body": "Tunnet kuinka vatsasi kurnii..."
+                },
+                "thirst": {
+                    "title": "Janoinen",
+                    "body": "Kurkkusi alkaa tuntua kuivalta..."
+                }
+            },
+            "medium": {
+                "hunger": {
+                    "title": "Nälkäinen",
+                    "body": "Alat olla todella nälkäinen..."
+                },
+                "thirst": {
+                    "title": "Janoinen",
+                    "body": "Kurkkusi kuivuu yhä enemmän..."
+                }
+            },
+            "critical": {
+                "hunger": {
+                    "title": "Nälkäinen",
+                    "body": "Vatsasi alkaa kivistää..."
+                },
+                "thirst": {
+                    "title": "Janoinen",
+                    "body": "Suusi on kuiva ja kurkkuasi särkee..."
+                }
+            }
+        }
+    },
+    "keymapping": {
+        "toggleEngine": "Käynnistä/sammuta ajoneuvon moottori",
+        "toggleSeatbelt": "Kiinnitä/irroita turvavyö"
+    },
+    "framework": {
+        "fallbacks": {
+            "playerName": "Pelaaja",
+            "jobLabel": "Työtön",
+            "jobGrade": "Työntekijä",
+            "weaponName": "Ase",
+            "unarmed": "Aseistamaton"
+        }
+    },
+    "weapons": {
+        "0x92A27487": "Tikari",
+        "0x958A4A8F": "Pesäpallomaila",
+        "0xF9E6AA4B": "Rikkinäinen pullo",
+        "0x84BD7BFD": "Sorkkarauta",
+        "0xA2719263": "Nyrkit",
+        "0x8BB05FD7": "Taskulamppu",
+        "0x440E4788": "Golfmaila",
+        "0x4E875F73": "Vasara",
+        "0xF9DCBF2D": "Kirves",
+        "0xD8DF3C3C": "Rystysraudat",
+        "0x99B507EA": "Veitsi",
+        "0xDD5DF8D9": "Viidakkoveitsi",
+        "0xDFE37640": "Linkkuveitsi",
+        "0x678B81B1": "Pamppu",
+        "0x19044EE0": "Putkipihdit",
+        "0xCD274149": "Sotakirves",
+        "0x94117305": "Biljardikeppi",
+        "0x3813FC08": "Kivikirves",
+        "0x6589186A": "Karkkikeppi",
+        "0xDAC00025": "Sähkölamautin",
+        "0x1B06D571": "Pistooli",
+        "0xBFE256D4": "Pistooli Mk II",
+        "0x5EF9FEC4": "Taistelupistooli",
+        "0x22D8FE39": "AP-pistooli",
+        "0x3656C8C1": "Etälamautin",
+        "0x99AEEB3B": "Pistooli .50",
+        "0xBFD21232": "SNS-pistooli",
+        "0x88374054": "SNS-pistooli MK II",
+        "0xD205520E": "Raskas pistooli",
+        "0x083839C4": "Vintage-pistooli",
+        "0x47757124": "Valopistooli",
+        "0xDC4DB296": "Tarkkuuspistooli",
+        "0xC1B3C3D1": "Raskas revolveri",
+        "0xCB96392F": "Raskas revolveri Mk II",
+        "0x97EA20B8": "Kaksitoiminen revolveri",
+        "0xAF3696A1": "Up-n-Atomizer",
+        "0x2B5EF5EC": "Keraaminen pistooli",
+        "0x917F6C8C": "Laivaston revolveri",
+        "0x57A4368C": "Perico-pistooli",
+        "0x45CD9CF3": "Taser",
+        "0x1BC4FDB9": "WM 29 -pistooli",
+        "0x13532244": "Mikro-SMG",
+        "0x2BE6766B": "SMG",
+        "0x78A97CD0": "SMG Mk II",
+        "0xEFE7E2DF": "Rynnäkkö-SMG",
+        "0x0A3D4D34": "Taistelu-PDW",
+        "0xDB1AA450": "Konepistooli",
+        "0xBD248B55": "Mini-SMG",
+        "0x476BF155": "Unholy Hellbringer",
+        "0x14E5AFD5": "Taktinen SMG",
+        "0x1D073A89": "Pumppuhaulikko",
+        "0x555AF99A": "Pumppuhaulikko Mk II",
+        "0x7846A318": "Katkaistu haulikko",
+        "0xE284C527": "Rynnäkköhaulikko",
+        "0x9D61E50F": "Bullpup-haulikko",
+        "0x3AABBBAA": "Raskas haulikko",
+        "0xEF951FBB": "Kaksipiippuinen haulikko",
+        "0x12E82D3D": "Sweeper-haulikko",
+        "0x05A96BA4": "Taisteluhaulikko",
+        "0xBFEFFF6D": "Rynnäkkökivääri",
+        "0x394F415C": "Rynnäkkökivääri Mk II",
+        "0x83BF0278": "Karbiinikivääri",
+        "0xFAD1F1C9": "Karbiinikivääri Mk II",
+        "0xAF113F99": "Edistynyt kivääri",
+        "0xC0A3098D": "Erikoiskarbiini",
+        "0x969C3D67": "Erikoiskarbiini Mk II",
+        "0x7F229F94": "Bullpup-kivääri",
+        "0x84D6FAFD": "Bullpup-kivääri Mk II",
+        "0x624FE830": "Kompakti kivääri",
+        "0x9D1F17E6": "Sotilaskivääri",
+        "0xC78D71B4": "Raskas kivääri",
+        "0xD1D5F52B": "Taktinen kivääri",
+        "0x9D07F764": "KK (konekivääri)",
+        "0x7FD62962": "Taistelu-KK",
+        "0xDBBD7280": "Taistelu-KK Mk II",
+        "0x61012683": "Gusenberg Sweeper",
+        "0x05FC3C11": "Tarkkuuskivääri",
+        "0x0C472FE2": "Raskas tarkkuuskivääri",
+        "0x0A914799": "Raskas tarkkuuskivääri Mk II",
+        "0xC734385A": "Tarkkuuskivääri (marksman)",
+        "0x6A6C02E0": "Tarkkuuskivääri Mk II",
+        "0x6E7DDDEC": "Precision-kivääri",
+        "0xA89CB99E": "Musketti",
+        "0xB1CA77B1": "RPG",
+        "0xA284510B": "Kranaatinheitin",
+        "0x4DD2DC56": "Savukranaatinheitin",
+        "0x42BF8A85": "Minigun",
+        "0x7F7497E5": "Ilotulitusheitin",
+        "0x6D544C99": "Railgun",
+        "0x63AB0442": "Hakeutuva raketinheitin",
+        "0x0781FE4A": "Kompakti kranaatinheitin",
+        "0xB62D1F67": "Widowmaker",
+        "0xDB26713A": "Kompakti EMP-heitin",
+        "0xFEA23564": "Railgun",
+        "0x93E220BD": "Kranaatti",
+        "0xA0973D5E": "BZ-kaasu",
+        "0x24B17070": "Molotovin cocktail",
+        "0x2C3731D9": "Tahmapommi",
+        "0xAB564B93": "Läheisyysmiina",
+        "0x0787F0BB": "Lumipallo",
+        "0xBA45E8B8": "Putkipommi",
+        "0x23C9F95C": "Pesäpallo",
+        "0xFDBC8A50": "Kyynelkaasu",
+        "0x497FACC3": "Soihdutus",
+        "0xF7F1E25E": "Happopaketti",
+        "0x34A67B97": "Polttoainekanisteri",
+        "0xFBAB5776": "Laskuvarjo",
+        "0x060EC506": "Sammutin",
+        "0xBA536372": "Vaarallinen kanisteri",
+        "0x184140A1": "Lannoitekanisteri"
+    }
+}

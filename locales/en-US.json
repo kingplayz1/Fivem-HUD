@@ -1,0 +1,530 @@
+{
+    "_meta": {
+        "name": "English (US)",
+        "code": "en-US",
+        "authors": [
+            "bablo-hud"
+        ]
+    },
+    "editModeOverlay": {
+        "title": "Edit Mode",
+        "subtitle": "Drag elements to reposition",
+        "reset": "Reset",
+        "done": "Done",
+        "hint": "Drag any element to reposition. Right-click any element for options (Hide, Tilt, Layout)."
+    },
+    "contextMenu": {
+        "hide": "Hide Element",
+        "show": "Show Element",
+        "resetPosition": "Reset Position",
+        "rotate": "Rotate",
+        "tiltH": "3D Horizontal",
+        "tiltV": "3D Vertical"
+    },
+    "settings": {
+        "header": {
+            "title": "HUD Settings",
+            "titleGlobal": "GLOBAL CONFIG",
+            "subtitle": "Customize your interface",
+            "subtitleGlobal": "Changes apply to everyone on the server",
+            "close": "Close",
+            "buttons": {
+                "collisionDebug": "Collision Debug",
+                "editMode": "Edit Mode",
+                "reset": "Reset",
+                "publishGlobal": "Publish Globally"
+            }
+        },
+        "tabs": {
+            "general": "General",
+            "statusIcons": "Status Icons",
+            "speedometers": "Speedometers",
+            "notifications": "Notifications",
+            "progressBar": "Progress Bar",
+            "controlHints": "Help Text",
+            "playerInfo": "Player Info",
+            "compass": "Compass"
+        },
+        "general": {
+            "subtitle": "Customize minimap style & control hints",
+            "sectionTitle": "Minimap",
+            "showMapOnFoot": {
+                "title": "Show Map on Foot",
+                "description": "Display the minimap while walking around on foot"
+            },
+            "minimapTransition": {
+                "title": "Minimap Transition",
+                "description": "Play a short animated cover over the minimap when it appears or hides"
+            },
+            "mapStyle": {
+                "title": "Map Style",
+                "description": "Choose your preferred minimap visual style",
+                "square": "Square",
+                "circle": "Circle"
+            },
+            "microphone": {
+                "sectionTitle": "Microphone",
+                "location": {
+                    "title": "Voice HUD Location",
+                    "description": "Choose whether the Voice HUD renders as a standalone component or on the left side of Status HUD.",
+                    "standalone": "Standalone HUD",
+                    "status": "Status Bar (Left)"
+                },
+                "color": {
+                    "title": "Microphone Color",
+                    "description": "Customize the primary theme color for the microphone background box and voice indicator."
+                }
+            }
+        },
+        "statusIcons": {
+            "lockBanner": "Status icon settings are locked by the server.",
+            "title": "Status Icons",
+            "subtitle": "Select an icon to customize",
+            "simulate": "Simulate",
+            "presetsHeader": "Icon Styles",
+            "settingsHeader": "{name} Settings",
+            "settingsHint": "Configure specific behavior for this status",
+            "accentColor": {
+                "title": "Accent Color",
+                "description": "Click to pick a color"
+            },
+            "visibility": {
+                "title": "Visibility",
+                "description": "Toggle status display"
+            },
+            "autoHide": {
+                "title": "Auto Hide",
+                "description": "Hide when value is below threshold"
+            },
+            "colorPicker": {
+                "hexLabel": "HEX",
+                "applyAll": "All"
+            },
+            "designs": {
+                "aura": "Aura",
+                "wave": "Wave",
+                "wave-static": "Wave Flat",
+                "v15": "Radar",
+                "v13": "Pro",
+                "v12": "Flow",
+                "v11": "Eclipse",
+                "v10": "Badge",
+                "v9": "Capsule",
+                "v8": "Premium",
+                "v6": "Bars",
+                "v1": "Classic",
+                "v2": "Minimal",
+                "v3": "Compact",
+                "v4": "Stacked",
+                "v5": "Hexagon",
+                "hex-fill": "Solid Hex",
+                "hex-border": "Outline Hex",
+                "hex-bar": "Legacy Hex"
+            }
+        },
+        "speedometers": {
+            "lockBanner": "Speedometer settings are locked by the server.",
+            "title": "Speedometers",
+            "subtitle": "Select speedometer gauge style & accent color",
+            "highlightColor": {
+                "title": "Highlight Color",
+                "description": "Accent color inner gradient"
+            },
+            "showHighlight": {
+                "title": "Show Highlight",
+                "description": "Toggle the inner gradient glow"
+            },
+            "designs": {
+                "basic": "Basic",
+                "round-basic": "Round",
+                "digital-bar": "Digital Bar",
+                "round-arc": "Round Arc",
+                "round-frosted": "Frosted",
+                "flat-bar": "Flat",
+                "sport-basic": "Sport Basic",
+                "sport": "Sport"
+            }
+        },
+        "notifications": {
+            "lockBanner": "Notification settings are locked by the server.",
+            "title": "Notifications",
+            "subtitle": "Configure notification position, sound & scale",
+            "style": {
+                "title": "Notification Style",
+                "subtitle": "Choose how the progress should be displayed on notifications.",
+                "linear": "Linear",
+                "circular": "Circular",
+                "overlay": "Overlay"
+            },
+            "theme": {
+                "title": "Color Theme",
+                "subtitle": "Choose between unified primary color or distinct status colors.",
+                "primary": "Original (Unified)",
+                "colored": "Type Based (Colored)"
+            },
+            "opacity": {
+                "title": "Opacity",
+                "subtitle": "Adjust the transparency of notifications.",
+                "label": "Notification Opacity"
+            },
+            "sound": {
+                "title": "Sound & Testing",
+                "subtitle": "Manage audio feedback and test your configuration.",
+                "toggleTitle": "Notification Sound",
+                "toggleHint": "Play a sound when receiving notifications",
+                "volumeLabel": "Volume",
+                "testHeader": "Test Preview",
+                "testSuccess": "Test Success",
+                "testError": "Test Error",
+                "testInfo": "Test Info",
+                "testWarning": "Test Warning"
+            },
+            "test": {
+                "successTitle": "Operation Successful",
+                "successBody": "Your changes have been saved successfully.",
+                "errorTitle": "System Error",
+                "errorBody": "Failed to connect to the server. Please try again.",
+                "infoTitle": "New Message",
+                "infoBody": "You received a new vehicle key.",
+                "warningTitle": "Connection Unstable",
+                "warningBody": "Network latency is higher than usual."
+            }
+        },
+        "progressBar": {
+            "lockBanner": "Progress bar settings are locked by the server.",
+            "title": "Progress Bar",
+            "subtitle": "Segmented action progress display & customization",
+            "restartPreview": "Restart Preview Animation",
+            "accentColor": {
+                "title": "Gradient & Accent Color",
+                "description": "Top linear gradient overlay tint & active segment glow color."
+            },
+            "bgColor": {
+                "title": "Container Background",
+                "description": "Background dark tint of progress bar container."
+            },
+            "reset": {
+                "title": "Reset Style Defaults",
+                "description": "Restore default server theme gradient & container background colors.",
+                "button": "Reset Defaults"
+            },
+            "test": {
+                "title": "Test Progress Bar",
+                "subtitle": "Trigger a live 5-second progress test on your HUD.",
+                "button": "Run Test (5s)"
+            }
+        },
+        "controlHints": {
+            "designStyle": "Design Style",
+            "designV1": "Design V1",
+            "designV2": "Design V2",
+            "background": {
+                "title": "Background",
+                "description": "Show a dark background behind the hints"
+            },
+            "position": {
+                "title": "Position",
+                "description": "Choose on-screen anchor alignment for keybind hints",
+                "centerLeft": "Center Left",
+                "centerRight": "Center Right"
+            },
+            "preview": {
+                "title": "Help Text Highlight Color",
+                "description": "Customize keybind badge highlight & live preview"
+            },
+            "previewActive": {
+                "title": "Preview Active",
+                "description": "Hint previews are active on your screen right now. Change settings to see updates in real-time."
+            },
+            "samples": {
+                "openPhone": "Open Phone",
+                "inventory": "Inventory",
+                "interact": "Interact"
+            }
+        },
+        "playerInfo": {
+            "lockBanner": "Player info settings are locked by the server.",
+            "title": "Player Info",
+            "subtitle": "Toggle visible player information elements",
+            "masterToggle": {
+                "title": "Enable Player Info",
+                "description": "Show or hide the player information panel."
+            },
+            "visibleElements": {
+                "title": "Visible Elements",
+                "subtitle": "Pick which pills appear in the panel. Click a card to toggle it on or off."
+            },
+            "opacity": {
+                "title": "Opacity",
+                "subtitle": "Adjust the transparency of the panel.",
+                "label": "Panel Opacity"
+            },
+            "elements": {
+                "job": "Job",
+                "id": "Player ID",
+                "time": "In-Game Time",
+                "bank": "Bank",
+                "cash": "Cash",
+                "weapon": "Weapon",
+                "dirty": "Dirty Money",
+                "gang": "Gang"
+            },
+            "descriptions": {
+                "job": "Current job and grade",
+                "id": "Server player ID",
+                "time": "Game world time",
+                "bank": "Bank balance",
+                "cash": "Cash on hand",
+                "weapon": "Equipped weapon and ammo",
+                "dirty": "Dirty money on hand (only shown when you have some)",
+                "gang": "Gang and rank (only shown while you are in a gang)"
+            },
+            "samples": {
+                "job": "Mechanic",
+                "id": "#1337",
+                "time": "14:32",
+                "bank": "$25,000",
+                "cash": "$1,250",
+                "weapon": "Pistol",
+                "dirty": "$4,500",
+                "gang": "Ballas - Boss"
+            }
+        },
+        "compass": {
+            "lockBanner": "Compass settings are locked by the server.",
+            "title": "Compass",
+            "subtitle": "Top-center compass & street location display",
+            "masterToggle": {
+                "title": "Enable Compass",
+                "description": "Show top-center direction, street name & zone pills."
+            },
+            "showOnFoot": {
+                "title": "Show On Foot",
+                "description": "Display the compass while walking on foot (when minimap is visible)."
+            },
+            "bgColor": {
+                "title": "Background Color",
+                "description": "Gradient background tint of top tape & location street badge."
+            },
+            "accentColor": {
+                "title": "Center Indicator Color",
+                "description": "Color of vertical gradient line & 45° center diamond badge."
+            },
+            "visibleElements": {
+                "title": "Visible Pills",
+                "subtitle": "Toggle individual pills on or off"
+            },
+            "elements": {
+                "direction": "Direction",
+                "street": "Street",
+                "zone": "Zone"
+            },
+            "samples": {
+                "direction": "NE",
+                "street": "Elgin Ave",
+                "zone": "Legion Square"
+            },
+            "preview": {
+                "label": "Preview",
+                "empty": "All pills hidden"
+            },
+            "opacity": {
+                "title": "Opacity",
+                "subtitle": "Adjust the compass panel transparency",
+                "label": "Compass Opacity"
+            }
+        }
+    },
+    "hud": {
+        "playerInfo": {
+            "ammo": {
+                "empty": "EMPTY",
+                "remaining": "RES"
+            },
+            "money": {
+                "inBank": "In Bank",
+                "inCash": "In Cash"
+            }
+        },
+        "status": {}
+    },
+    "notifications": {
+        "defaultTitle": "Notification",
+        "settingsLocked": "HUD customization is managed by the server. Settings aren't editable on this server.",
+        "seatbelt": {
+            "enabledTitle": "Seatbelt Enabled",
+            "enabledBody": "You are now buckled up",
+            "disabledTitle": "Seatbelt Disabled",
+            "disabledBody": "You have unbuckled your seatbelt"
+        },
+        "engine": {
+            "enabledTitle": "Engine On",
+            "enabledBody": "You have started the engine",
+            "disabledTitle": "Engine Off",
+            "disabledBody": "You have shut off the engine"
+        },
+        "test": {
+            "title": "Test Notification",
+            "body": "This is a test notification to see how it looks."
+        },
+        "hungerAlert": {
+            "low": {
+                "hunger": {
+                    "title": "Hungry",
+                    "body": "You feel your stomach rumbling..."
+                },
+                "thirst": {
+                    "title": "Thirsty",
+                    "body": "You feel your throat getting dry..."
+                }
+            },
+            "medium": {
+                "hunger": {
+                    "title": "Hungry",
+                    "body": "You're getting really hungry..."
+                },
+                "thirst": {
+                    "title": "Thirsty",
+                    "body": "Your throat is getting parched..."
+                }
+            },
+            "critical": {
+                "hunger": {
+                    "title": "Hungry",
+                    "body": "You start to feel pain from your stomach..."
+                },
+                "thirst": {
+                    "title": "Thirsty",
+                    "body": "Your mouth is dry and your throat aches..."
+                }
+            }
+        }
+    },
+    "keymapping": {
+        "toggleEngine": "Toggle Vehicle Engine",
+        "toggleSeatbelt": "Toggle Seatbelt",
+        "openSettings": "Open HUD Settings Menu",
+        "openCarControl": "Open Vehicle Control Menu"
+    },
+    "framework": {
+        "fallbacks": {
+            "playerName": "Player",
+            "jobLabel": "Unemployed",
+            "jobGrade": "Worker",
+            "weaponName": "Weapon",
+            "unarmed": "Unarmed"
+        }
+    },
+    "weapons": {
+        "0x92A27487": "Antique Cavalry Dagger",
+        "0x958A4A8F": "Baseball Bat",
+        "0xF9E6AA4B": "Broken Bottle",
+        "0x84BD7BFD": "Crowbar",
+        "0xA2719263": "Unarmed",
+        "0x8BB05FD7": "Flashlight",
+        "0x440E4788": "Golf Club",
+        "0x4E875F73": "Hammer",
+        "0xF9DCBF2D": "Hatchet",
+        "0xD8DF3C3C": "Brass Knuckles",
+        "0x99B507EA": "Knife",
+        "0xDD5DF8D9": "Machete",
+        "0xDFE37640": "Switchblade",
+        "0x678B81B1": "Nightstick",
+        "0x19044EE0": "Pipe Wrench",
+        "0xCD274149": "Battle Axe",
+        "0x94117305": "Pool Cue",
+        "0x3813FC08": "Stone Hatchet",
+        "0x6589186A": "Candy Cane",
+        "0xDAC00025": "Stun Rod",
+        "0x1B06D571": "Pistol",
+        "0xBFE256D4": "Pistol Mk II",
+        "0x5EF9FEC4": "Combat Pistol",
+        "0x22D8FE39": "AP Pistol",
+        "0x3656C8C1": "Stun Gun",
+        "0x99AEEB3B": "Pistol .50",
+        "0xBFD21232": "SNS Pistol",
+        "0x88374054": "SNS Pistol Mk II",
+        "0xD205520E": "Heavy Pistol",
+        "0x083839C4": "Vintage Pistol",
+        "0x47757124": "Flare Gun",
+        "0xDC4DB296": "Marksman Pistol",
+        "0xC1B3C3D1": "Heavy Revolver",
+        "0xCB96392F": "Heavy Revolver Mk II",
+        "0x97EA20B8": "Double Action Revolver",
+        "0xAF3696A1": "Up-n-Atomizer",
+        "0x2B5EF5EC": "Ceramic Pistol",
+        "0x917F6C8C": "Navy Revolver",
+        "0x57A4368C": "Perico Pistol",
+        "0x45CD9CF3": "Stun Gun",
+        "0x1BC4FDB9": "WM 29 Pistol",
+        "0x13532244": "Micro SMG",
+        "0x2BE6766B": "SMG",
+        "0x78A97CD0": "SMG Mk II",
+        "0xEFE7E2DF": "Assault SMG",
+        "0x0A3D4D34": "Combat PDW",
+        "0xDB1AA450": "Machine Pistol",
+        "0xBD248B55": "Mini SMG",
+        "0x476BF155": "Unholy Hellbringer",
+        "0x14E5AFD5": "Tactical SMG",
+        "0x1D073A89": "Pump Shotgun",
+        "0x555AF99A": "Pump Shotgun Mk II",
+        "0x7846A318": "Sawed-Off Shotgun",
+        "0xE284C527": "Assault Shotgun",
+        "0x9D61E50F": "Bullpup Shotgun",
+        "0x3AABBBAA": "Heavy Shotgun",
+        "0xEF951FBB": "Double Barrel Shotgun",
+        "0x12E82D3D": "Sweeper Shotgun",
+        "0x05A96BA4": "Combat Shotgun",
+        "0xBFEFFF6D": "Assault Rifle",
+        "0x394F415C": "Assault Rifle Mk II",
+        "0x83BF0278": "Carbine Rifle",
+        "0xFAD1F1C9": "Carbine Rifle Mk II",
+        "0xAF113F99": "Advanced Rifle",
+        "0xC0A3098D": "Special Carbine",
+        "0x969C3D67": "Special Carbine Mk II",
+        "0x7F229F94": "Bullpup Rifle",
+        "0x84D6FAFD": "Bullpup Rifle Mk II",
+        "0x624FE830": "Compact Rifle",
+        "0x9D1F17E6": "Military Rifle",
+        "0xC78D71B4": "Heavy Rifle",
+        "0xD1D5F52B": "Tactical Rifle",
+        "0x9D07F764": "MG",
+        "0x7FD62962": "Combat MG",
+        "0xDBBD7280": "Combat MG Mk II",
+        "0x61012683": "Gusenberg Sweeper",
+        "0x05FC3C11": "Sniper Rifle",
+        "0x0C472FE2": "Heavy Sniper",
+        "0x0A914799": "Heavy Sniper Mk II",
+        "0xC734385A": "Marksman Rifle",
+        "0x6A6C02E0": "Marksman Rifle Mk II",
+        "0x6E7DDDEC": "Precision Rifle",
+        "0xA89CB99E": "Musket",
+        "0xB1CA77B1": "RPG",
+        "0xA284510B": "Grenade Launcher",
+        "0x4DD2DC56": "Smoke Launcher",
+        "0x42BF8A85": "Minigun",
+        "0x7F7497E5": "Firework Launcher",
+        "0x6D544C99": "Railgun",
+        "0x63AB0442": "Homing Launcher",
+        "0x0781FE4A": "Compact Grenade Launcher",
+        "0xB62D1F67": "Widowmaker",
+        "0xDB26713A": "Compact EMP Launcher",
+        "0xFEA23564": "Railgun",
+        "0x93E220BD": "Grenade",
+        "0xA0973D5E": "BZ Gas",
+        "0x24B17070": "Molotov",
+        "0x2C3731D9": "Sticky Bomb",
+        "0xAB564B93": "Proximity Mine",
+        "0x0787F0BB": "Snowball",
+        "0xBA45E8B8": "Pipe Bomb",
+        "0x23C9F95C": "Baseball",
+        "0xFDBC8A50": "Tear Gas",
+        "0x497FACC3": "Flare",
+        "0xF7F1E25E": "Acid Package",
+        "0x34A67B97": "Jerry Can",
+        "0xFBAB5776": "Parachute",
+        "0x060EC506": "Fire Extinguisher",
+        "0xBA536372": "Hazardous Jerry Can",
+        "0x184140A1": "Fertilizer Can"
+    }
+}

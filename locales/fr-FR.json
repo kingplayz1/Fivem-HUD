@@ -1,0 +1,515 @@
+{
+    "_meta": {
+        "name": "Français (France)",
+        "code": "fr-FR",
+        "authors": [
+            "bablo-hud"
+        ]
+    },
+    "editModeOverlay": {
+        "title": "Mode Édition",
+        "subtitle": "Faites glisser les éléments pour les repositionner",
+        "reset": "Réinitialiser",
+        "done": "Terminé",
+        "hint": "Faites glisser n'importe quel élément pour le repositionner. Clic droit sur un élément pour les options (Masquer, Inclinaison, Disposition)."
+    },
+    "contextMenu": {
+        "hide": "Masquer l'élément",
+        "show": "Afficher l'élément",
+        "resetPosition": "Réinitialiser la position",
+        "rotate": "Pivoter",
+        "tiltH": "3D Horizontale",
+        "tiltV": "3D Verticale"
+    },
+    "settings": {
+        "header": {
+            "title": "Paramètres du HUD",
+            "titleGlobal": "CONFIG GLOBALE",
+            "subtitle": "Personnalisez votre interface",
+            "subtitleGlobal": "Les modifications s'appliquent à tous les joueurs du serveur",
+            "buttons": {
+                "collisionDebug": "Débogage collisions",
+                "editMode": "Mode édition",
+                "reset": "Réinitialiser",
+                "publishGlobal": "Publier globalement"
+            }
+        },
+        "tabs": {
+            "general": "Général",
+            "statusIcons": "Icônes de statut",
+            "speedometers": "Compteurs",
+            "notifications": "Notifications",
+            "progressBar": "Barre de progression",
+            "controlHints": "Aide",
+            "playerInfo": "Infos joueur",
+            "compass": "Boussole"
+        },
+        "general": {
+            "subtitle": "Personnaliser la minicarte et les conseils",
+            "sectionTitle": "Minicarte",
+            "showMapOnFoot": {
+                "title": "Afficher la carte à pied",
+                "description": "Afficher la mini-carte quand vous êtes à pied"
+            },
+            "minimapTransition": {
+                "title": "Transition de la minicarte",
+                "description": "Jouer une courte animation sur la minicarte lorsqu'elle apparaît ou se cache"
+            },
+            "mapStyle": {
+                "title": "Style de Carte",
+                "description": "Choisissez le style visuel de votre mini-carte",
+                "square": "Carré",
+                "circle": "Cercle"
+            },
+            "microphone": {
+                "sectionTitle": "Microphone",
+                "location": {
+                    "title": "Emplacement du Voice HUD",
+                    "description": "Choisissez si le Voice HUD apparaît séparé ou à gauche de la barre d'état.",
+                    "standalone": "HUD Indépendant",
+                    "status": "Barre d'état (Gauche)"
+                },
+                "color": {
+                    "title": "Couleur du Microphone",
+                    "description": "Personnalisez la couleur du microphone et de l'indicateur vocal."
+                }
+            }
+        },
+        "statusIcons": {
+            "lockBanner": "Les paramètres des icônes de statut sont verrouillés par le serveur.",
+            "title": "Icônes de statut",
+            "subtitle": "Sélectionnez une icône à personnaliser",
+            "simulate": "Simuler",
+            "settingsHeader": "Paramètres de {name}",
+            "settingsHint": "Configurez le comportement spécifique de ce statut",
+            "accentColor": {
+                "title": "Couleur d'accent",
+                "description": "Cliquez pour choisir une couleur"
+            },
+            "visibility": {
+                "title": "Visibilité",
+                "description": "Activer ou désactiver l'affichage du statut"
+            },
+            "autoHide": {
+                "title": "Masquage auto",
+                "description": "Masquer quand la valeur est en dessous du seuil"
+            },
+            "colorPicker": {
+                "hexLabel": "HEX",
+                "applyAll": "Tout"
+            },
+            "designs": {
+                "aura": "Aura",
+                "wave": "Onde",
+                "wave-static": "Onde Plate",
+                "v15": "Radar",
+                "v13": "Pro",
+                "v12": "Flux",
+                "v11": "Éclipse",
+                "v10": "Badge",
+                "v9": "Capsule",
+                "v8": "Premium",
+                "v6": "Barres",
+                "v1": "Classique",
+                "v2": "Minimal",
+                "v3": "Compact",
+                "v4": "Empilé",
+                "v5": "Hexagone",
+                "hex-fill": "Hexagone plein",
+                "hex-border": "Hexagone contour",
+                "hex-bar": "Hexagone legacy"
+            }
+        },
+        "speedometers": {
+            "lockBanner": "Les paramètres du compteur sont verrouillés par le serveur.",
+            "highlightColor": {
+                "title": "Couleur d'accent",
+                "description": "Dégradé intérieur de couleur d'accent"
+            },
+            "showHighlight": {
+                "title": "Afficher l'accent",
+                "description": "Activer ou désactiver la lueur intérieure"
+            },
+            "designs": {
+                "basic": "Basique",
+                "round-basic": "Rond",
+                "digital-bar": "Barre Digitale",
+                "round-frosted": "Givré",
+                "flat-bar": "Plat",
+                "sport-basic": "Sport basique",
+                "sport": "Sport"
+            }
+        },
+        "notifications": {
+            "lockBanner": "Les paramètres des notifications sont verrouillés par le serveur.",
+            "style": {
+                "title": "Style des notifications",
+                "subtitle": "Choisissez comment la progression est affichée sur les notifications.",
+                "linear": "Linéaire",
+                "circular": "Circulaire",
+                "overlay": "Superposé"
+            },
+            "theme": {
+                "title": "Thème de couleur",
+                "subtitle": "Choisissez entre une couleur principale unifiée ou des couleurs distinctes par type.",
+                "primary": "Original (unifié)",
+                "colored": "Par type (coloré)"
+            },
+            "opacity": {
+                "title": "Opacité",
+                "subtitle": "Ajustez la transparence des notifications.",
+                "label": "Opacité des notifications"
+            },
+            "sound": {
+                "title": "Son et tests",
+                "subtitle": "Gérez les retours audio et testez votre configuration.",
+                "toggleTitle": "Son des notifications",
+                "toggleHint": "Jouer un son à la réception des notifications",
+                "volumeLabel": "Volume",
+                "testHeader": "Tester l'aperçu",
+                "testSuccess": "Test succès",
+                "testError": "Test erreur",
+                "testInfo": "Test info",
+                "testWarning": "Test avertissement"
+            },
+            "test": {
+                "successTitle": "Opération réussie",
+                "successBody": "Vos modifications ont été enregistrées.",
+                "errorTitle": "Erreur système",
+                "errorBody": "Échec de la connexion au serveur. Veuillez réessayer.",
+                "infoTitle": "Nouveau message",
+                "infoBody": "Vous avez reçu une nouvelle clé de véhicule.",
+                "warningTitle": "Connexion instable",
+                "warningBody": "La latence réseau est plus élevée que d'habitude."
+            }
+        },
+        "progressBar": {
+            "lockBanner": "Les paramètres de la barre de progression sont verrouillés par le serveur.",
+            "title": "Barre de progression",
+            "subtitle": "Affichage et personnalisation de la barre de progression segmentée",
+            "restartPreview": "Redémarrer l'animation d'aperçu",
+            "accentColor": {
+                "title": "Dégradé & Couleur d'accent",
+                "description": "Teinte du dégradé linéaire supérieur et couleur de brillance des segments."
+            },
+            "bgColor": {
+                "title": "Arrière-plan du conteneur",
+                "description": "Teinte sombre d'arrière-plan du conteneur."
+            },
+            "reset": {
+                "title": "Réinitialiser par défaut",
+                "description": "Restaurer le dégradé et l'arrière-plan par défaut du serveur.",
+                "button": "Réinitialiser par défaut"
+            },
+            "test": {
+                "title": "Tester la barre de progression",
+                "subtitle": "Déclencher un test de progression en direct de 5 secondes sur votre HUD.",
+                "button": "Lancer le test (5s)"
+            }
+        },
+        "controlHints": {
+            "designStyle": "Style de design",
+            "designV1": "Design V1",
+            "designV2": "Design V2",
+            "background": {
+                "title": "Arrière-plan",
+                "description": "Afficher un fond sombre derrière les aides"
+            },
+            "position": {
+                "title": "Position",
+                "description": "Choisir l'alignement à l'écran pour les raccourcis",
+                "centerLeft": "Centre gauche",
+                "centerRight": "Centre droite"
+            },
+            "preview": {
+                "title": "Couleur de surbrillance",
+                "description": "Personnaliser la couleur et l'aperçu en direct"
+            },
+            "previewActive": {
+                "title": "Aperçu actif",
+                "description": "Des aperçus d'aides sont actifs à l'écran. Modifiez les paramètres pour voir les mises à jour en temps réel."
+            },
+            "samples": {
+                "openPhone": "Ouvrir le téléphone",
+                "inventory": "Inventaire",
+                "interact": "Interagir"
+            }
+        },
+        "playerInfo": {
+            "lockBanner": "Les paramètres des infos joueur sont verrouillés par le serveur.",
+            "masterToggle": {
+                "title": "Activer les infos joueur",
+                "description": "Afficher ou masquer le panneau d'informations du joueur."
+            },
+            "visibleElements": {
+                "title": "Éléments visibles",
+                "subtitle": "Choisissez quelles pastilles apparaissent dans le panneau. Cliquez pour activer ou désactiver."
+            },
+            "opacity": {
+                "title": "Opacité",
+                "subtitle": "Ajustez la transparence du panneau.",
+                "label": "Opacité du panneau"
+            },
+            "elements": {
+                "job": "Métier",
+                "id": "ID joueur",
+                "time": "Heure en jeu",
+                "bank": "Banque",
+                "cash": "Liquide",
+                "weapon": "Arme",
+                "dirty": "Argent sale",
+                "gang": "Gang"
+            },
+            "descriptions": {
+                "job": "Métier et grade actuels",
+                "id": "ID joueur serveur",
+                "time": "Heure du monde en jeu",
+                "bank": "Solde bancaire",
+                "cash": "Liquide en poche",
+                "weapon": "Arme équipée et munitions",
+                "dirty": "Argent sale sur vous (affiché seulement si vous en avez)",
+                "gang": "Gang et rang (affiché seulement si vous êtes dans un gang)"
+            },
+            "samples": {
+                "job": "Mécanicien",
+                "id": "#1337",
+                "time": "14:32",
+                "bank": "25 000 $",
+                "cash": "1 250 $",
+                "weapon": "Pistolet",
+                "dirty": "$4,500",
+                "gang": "Ballas - Boss"
+            }
+        },
+        "compass": {
+            "lockBanner": "Les paramètres de la boussole sont verrouillés par le serveur.",
+            "title": "Boussole",
+            "subtitle": "Boussole centrale et affichage de la rue",
+            "masterToggle": {
+                "title": "Activer la boussole",
+                "description": "Afficher la direction, le nom de la rue et la zone en haut."
+            },
+            "showOnFoot": {
+                "title": "Afficher à pied",
+                "description": "Afficher la boussole en marchant à pied (lorsque la minimap est visible)."
+            },
+            "bgColor": {
+                "title": "Couleur de fond",
+                "description": "Teinte du fond de la boussole et du badge de rue."
+            },
+            "accentColor": {
+                "title": "Couleur de l'indicateur central",
+                "description": "Couleur de la ligne verticale et du losange central."
+            },
+            "elements": {
+                "direction": "Direction",
+                "street": "Rue",
+                "zone": "Zone"
+            },
+            "samples": {
+                "direction": "NE",
+                "street": "Elgin Ave",
+                "zone": "Legion Square"
+            },
+            "preview": {
+                "label": "Aperçu",
+                "empty": "Toutes les pastilles masquées"
+            },
+            "opacity": {
+                "title": "Opacité",
+                "subtitle": "Ajustez la transparence du panneau boussole",
+                "label": "Opacité de la boussole"
+            }
+        }
+    },
+    "hud": {
+        "playerInfo": {
+            "ammo": {
+                "empty": "VIDE",
+                "remaining": "RÉS"
+            },
+            "money": {
+                "inBank": "En banque",
+                "inCash": "En liquide"
+            }
+        },
+        "status": {}
+    },
+    "notifications": {
+        "defaultTitle": "Notification",
+        "settingsLocked": "La personnalisation du HUD est gérée par le serveur. Les paramètres ne sont pas modifiables sur ce serveur.",
+        "seatbelt": {
+            "enabledTitle": "Ceinture attachée",
+            "enabledBody": "Vous êtes maintenant attaché",
+            "disabledTitle": "Ceinture détachée",
+            "disabledBody": "Vous avez détaché votre ceinture"
+        },
+        "engine": {
+            "enabledTitle": "Moteur allumé",
+            "enabledBody": "Vous avez démarré le moteur",
+            "disabledTitle": "Moteur éteint",
+            "disabledBody": "Vous avez coupé le moteur"
+        },
+        "test": {
+            "title": "Notification de test",
+            "body": "Ceci est une notification de test."
+        },
+        "hungerAlert": {
+            "low": {
+                "hunger": {
+                    "title": "Affamé",
+                    "body": "Vous sentez votre estomac gargouiller..."
+                },
+                "thirst": {
+                    "title": "Assoiffé",
+                    "body": "Vous sentez votre gorge commencer à sécher..."
+                }
+            },
+            "medium": {
+                "hunger": {
+                    "title": "Affamé",
+                    "body": "Vous commencez à avoir vraiment faim..."
+                },
+                "thirst": {
+                    "title": "Assoiffé",
+                    "body": "Votre gorge devient de plus en plus sèche..."
+                }
+            },
+            "critical": {
+                "hunger": {
+                    "title": "Affamé",
+                    "body": "Vous ressentez une vive douleur à l'estomac..."
+                },
+                "thirst": {
+                    "title": "Assoiffé",
+                    "body": "Votre bouche est sèche et votre gorge vous fait mal..."
+                }
+            }
+        }
+    },
+    "keymapping": {
+        "toggleEngine": "Basculer le moteur du véhicule",
+        "toggleSeatbelt": "Basculer la ceinture"
+    },
+    "framework": {
+        "fallbacks": {
+            "playerName": "Joueur",
+            "jobLabel": "Sans emploi",
+            "jobGrade": "Ouvrier",
+            "weaponName": "Arme",
+            "unarmed": "À mains nues"
+        }
+    },
+    "weapons": {
+        "0x92A27487": "Dague de cavalerie antique",
+        "0x958A4A8F": "Batte de baseball",
+        "0xF9E6AA4B": "Bouteille cassée",
+        "0x84BD7BFD": "Pied-de-biche",
+        "0xA2719263": "À mains nues",
+        "0x8BB05FD7": "Lampe torche",
+        "0x440E4788": "Club de golf",
+        "0x4E875F73": "Marteau",
+        "0xF9DCBF2D": "Hachette",
+        "0xD8DF3C3C": "Poing américain",
+        "0x99B507EA": "Couteau",
+        "0xDD5DF8D9": "Machette",
+        "0xDFE37640": "Cran d'arrêt",
+        "0x678B81B1": "Matraque",
+        "0x19044EE0": "Clé à molette",
+        "0xCD274149": "Hache de combat",
+        "0x94117305": "Queue de billard",
+        "0x3813FC08": "Hachette de pierre",
+        "0x6589186A": "Canne en sucre",
+        "0xDAC00025": "Matraque électrique",
+        "0x1B06D571": "Pistolet",
+        "0xBFE256D4": "Pistolet Mk II",
+        "0x5EF9FEC4": "Pistolet de combat",
+        "0x22D8FE39": "Pistolet AP",
+        "0x3656C8C1": "Taser",
+        "0x99AEEB3B": "Pistolet .50",
+        "0xBFD21232": "Pistolet SNS",
+        "0x88374054": "Pistolet SNS Mk II",
+        "0xD205520E": "Pistolet lourd",
+        "0x083839C4": "Pistolet vintage",
+        "0x47757124": "Pistolet de détresse",
+        "0xDC4DB296": "Pistolet de précision",
+        "0xC1B3C3D1": "Revolver lourd",
+        "0xCB96392F": "Revolver lourd Mk II",
+        "0x97EA20B8": "Revolver double action",
+        "0xAF3696A1": "Atomiseur",
+        "0x2B5EF5EC": "Pistolet céramique",
+        "0x917F6C8C": "Revolver naval",
+        "0x57A4368C": "Pistolet Perico",
+        "0x45CD9CF3": "Taser",
+        "0x1BC4FDB9": "Pistolet WM 29",
+        "0x13532244": "Micro mitraillette",
+        "0x2BE6766B": "Mitraillette",
+        "0x78A97CD0": "Mitraillette Mk II",
+        "0xEFE7E2DF": "Mitraillette d'assaut",
+        "0x0A3D4D34": "PDW de combat",
+        "0xDB1AA450": "Pistolet mitrailleur",
+        "0xBD248B55": "Mini mitraillette",
+        "0x476BF155": "Apporteur d'enfer",
+        "0x14E5AFD5": "Mitraillette tactique",
+        "0x1D073A89": "Fusil à pompe",
+        "0x555AF99A": "Fusil à pompe Mk II",
+        "0x7846A318": "Fusil à canon scié",
+        "0xE284C527": "Fusil d'assaut à pompe",
+        "0x9D61E50F": "Fusil bullpup",
+        "0x3AABBBAA": "Fusil lourd",
+        "0xEF951FBB": "Fusil à double canon",
+        "0x12E82D3D": "Fusil nettoyeur",
+        "0x05A96BA4": "Fusil de combat",
+        "0xBFEFFF6D": "Fusil d'assaut",
+        "0x394F415C": "Fusil d'assaut Mk II",
+        "0x83BF0278": "Carabine",
+        "0xFAD1F1C9": "Carabine Mk II",
+        "0xAF113F99": "Fusil avancé",
+        "0xC0A3098D": "Carabine spéciale",
+        "0x969C3D67": "Carabine spéciale Mk II",
+        "0x7F229F94": "Fusil bullpup",
+        "0x84D6FAFD": "Fusil bullpup Mk II",
+        "0x624FE830": "Fusil compact",
+        "0x9D1F17E6": "Fusil militaire",
+        "0xC78D71B4": "Fusil lourd",
+        "0xD1D5F52B": "Fusil tactique",
+        "0x9D07F764": "Mitrailleuse",
+        "0x7FD62962": "Mitrailleuse de combat",
+        "0xDBBD7280": "Mitrailleuse de combat Mk II",
+        "0x61012683": "Gusenberg",
+        "0x05FC3C11": "Fusil de sniper",
+        "0x0C472FE2": "Sniper lourd",
+        "0x0A914799": "Sniper lourd Mk II",
+        "0xC734385A": "Fusil de précision",
+        "0x6A6C02E0": "Fusil de précision Mk II",
+        "0x6E7DDDEC": "Fusil de précision",
+        "0xA89CB99E": "Mousquet",
+        "0xB1CA77B1": "RPG",
+        "0xA284510B": "Lance-grenades",
+        "0x4DD2DC56": "Lance-fumigènes",
+        "0x42BF8A85": "Minigun",
+        "0x7F7497E5": "Lance-feux d'artifice",
+        "0x6D544C99": "Railgun",
+        "0x63AB0442": "Lance-missiles à tête chercheuse",
+        "0x0781FE4A": "Lance-grenades compact",
+        "0xB62D1F67": "Widowmaker",
+        "0xDB26713A": "Lance-EMP compact",
+        "0xFEA23564": "Railgun",
+        "0x93E220BD": "Grenade",
+        "0xA0973D5E": "Gaz BZ",
+        "0x24B17070": "Cocktail Molotov",
+        "0x2C3731D9": "Bombe collante",
+        "0xAB564B93": "Mine de proximité",
+        "0x0787F0BB": "Boule de neige",
+        "0xBA45E8B8": "Bombe artisanale",
+        "0x23C9F95C": "Balle de baseball",
+        "0xFDBC8A50": "Gaz lacrymogène",
+        "0x497FACC3": "Fusée éclairante",
+        "0xF7F1E25E": "Paquet d'acide",
+        "0x34A67B97": "Jerrican",
+        "0xFBAB5776": "Parachute",
+        "0x060EC506": "Extincteur",
+        "0xBA536372": "Jerrican dangereux",
+        "0x184140A1": "Bidon d'engrais"
+    }
+}
