@@ -67,7 +67,7 @@ Config.MinimapTransition       = {
 -- (src/frameworks/<qb|qbox|esx>/client.lua), e.g. return exports["jg-vehiclemileage"]:getMileage() (km, or false to hide).
 Config.Mileage                 = {
     provider     = "builtin",
-    persistent   = true,
+    persistent   = false,
     saveInterval = 60, -- Seconds between database writes for changed plates
 }
 
