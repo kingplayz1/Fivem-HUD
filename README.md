@@ -299,7 +299,7 @@ This resource is licensed under the MIT License. See [LICENSE](LICENSE) for deta
 
 - **Repository**: https://github.com/kingplayz1/Fivem-HUD
 - **Issues**: https://github.com/kingplayz1/Fivem-HUD/issues
-- **Discord**: (Add your Discord link here)
+- **Discord**: https://discord.gg/RpH5QDWNqz
 
 ---
 
