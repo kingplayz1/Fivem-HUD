@@ -42,15 +42,20 @@ A modern, highly customizable HUD for FiveM servers with support for multiple fr
    git clone https://github.com/kingplayz1/Fivem-HUD.git [qb]/bablo-hud
    ```
 
-2. **Add to server.cfg** (ensure it starts after your framework and ox_lib):
+2. **Add to server.cfg** (ensure it starts after ox_lib):
    ```cfg
    ensure ox_lib
    ensure [qb]/bablo-hud
    ```
 
 3. **Configure** `config.lua` to match your server setup (see [Configuration](#configuration))
+   - For **CFX Default servers** or testing: The HUD will automatically run in standalone mode
+   - For **framework servers**: Set `Config.Framework` to your framework or leave as "auto" for auto-detection
 
-4. **Start your server** - the HUD will auto-detect your framework
+4. **Start your server** - the HUD will:
+   - Auto-detect your framework (QBCore, ESX, Qbox, ND Core, vRP)
+   - Or run in standalone mode if no framework is detected
+   - Work without database connection errors (no oxmysql required)
 
 ## ⚙️ Configuration
 
@@ -102,6 +107,14 @@ See `config.lua` for complete configuration options (23KB+ of documented setting
 **Vehicle Direct Binds** (when enabled):
 - `LEFT` / `RIGHT` - Toggle indicators
 - `DOWN` - Toggle hazards
+
+## 💡 Quick Start for CFX Default Servers
+
+The HUD works **out of the box** on CFX Default servers:
+1. Clone the repo: `git clone https://github.com/kingplayz1/Fivem-HUD.git [qb]/bablo-hud`
+2. Add to server.cfg: `ensure ox_lib` and `ensure [qb]/bablo-hud`
+3. Start server - No configuration needed!
+4. The HUD will automatically run in standalone mode with default values
 
 ## 🖥️ In-Game Settings Menu
 
