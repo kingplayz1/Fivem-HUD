@@ -7,7 +7,12 @@ CreateThread(function()
     if Config.Framework ~= "nd" then return end
 
     local ndExports = exports["nd-core"]
-    local NDCore = ndExports and ndExports:getModule and ndExports:getModule('NDCore')
+    local NDCore
+
+    -- Check if nd-core is available and get its module
+    if type(ndExports) == "table" and type(ndExports.getModule) == "function" then
+        NDCore = ndExports:getModule('NDCore')
+    end
 
     Framework.isAdmin = function(_, playerId)
         local id = tonumber(playerId)
