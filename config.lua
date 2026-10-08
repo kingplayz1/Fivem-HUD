@@ -1,7 +1,7 @@
 
 Config                         = Config or {}
 
-Config.Framework               = "auto" -- "auto", "standalone", "qbcore", "esx", "qbox", "nd", or "vrp"
+Config.Framework               = "standalone" -- "auto", "standalone", "qbcore", "esx", "qbox", "nd", or "vrp"
 Config.Locale                  = "en-US" -- Locale code; must match a file in /locales/<code>.json
 -- Weapon image source: "bablo-hud" (own /weapons folder, weapon_pistol.png/.webp), "ox_inventory",
 -- "qb-inventory", "qs-inventory", "ps-inventory", "origen_inventory", "core_inventory",
