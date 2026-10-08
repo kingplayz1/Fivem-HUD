@@ -32,7 +32,6 @@ client_scripts {
 }
 
 server_scripts {
-    '@oxmysql/lib/MySQL.lua',
     'src/resource/shared/functions.lua',
     'src/resource/shared/debug.lua',
     'src/resource/shared/locale.lua',
